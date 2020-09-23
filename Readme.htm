@@ -1,0 +1,85 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft Visual Studio 6.0">
+<TITLE></TITLE>
+</HEAD>
+<BODY bgColor=silver>
+
+<P align=center><STRONG><FONT face=Impact size=6>DES 
+Library 1.1 - DEMO Version</FONT></STRONG></P>
+<P><FONT face=Arial>DES Library 1.1 is a VB component which can be used with any 
+VB or ASP application to add cryptographic capabilities. Using this component, 
+DES or 3DES encryption and decryption can be done. </FONT></P>
+<P><FONT face=Arial>This demo version will be valid for 30 uses, after which it 
+will expire. You will have to purchase the full version from Applitech Solution 
+Limited if you want to continue using this product.</FONT></P>
+<P><FONT face=Arial>You can send product inquiries at </FONT><A 
+href="mailto:comnet@applitechsolution.com"><FONT 
+face=Arial>comnet@applitechsolution.com</FONT></A></P>
+<P><FONT face=Arial>Following example shows how to use this component in an VB 
+or ASP document.</FONT></P>
+<P><FONT face=Arial>Put the file ASLDES.dll into your system directory (Ex. 
+c:\winnt\system32 for WinNT or Win2K systems). Register this dll by typing the 
+following command at the command prompt:</FONT></P>
+<P><B><FONT face="Courier New,Courier"><FONT size=-1>C:\&gt;regsvr32 
+c:\winnt\system32\ASLDES.dll</FONT></FONT></B> </P>
+<P><FONT face=Arial>To use&nbsp;DES Library&nbsp;in a VB environment, open a VB 
+project, go to Project/References... and check the box next 
+to&nbsp;<B>DES_LIBRARY.</B>&nbsp; Declare an&nbsp;DES Library&nbsp;object 
+variable as follows: </FONT>
+<P><B><FONT face="Courier New,Courier"><FONT size=-1>Dim&nbsp;crypto as 
+clsEncrypt</FONT></FONT></B>
+<P><FONT face=Arial>Create an instance of the&nbsp;DES Library&nbsp;object as 
+follows: </FONT>
+<P><B><FONT face="Courier New,Courier"><FONT size=-1>Set&nbsp;crypto = 
+New&nbsp;clsEncrypt</FONT></FONT></B></P>
+<P><FONT face=Arial>To use&nbsp;DES Library&nbsp;in an ASP environment, you must 
+create an instance of the&nbsp;DES Library&nbsp;object in your ASP script as 
+follows: </FONT></P>
+<P><B><FONT face="Courier New,Courier"><FONT size=-1>&lt;%</FONT></FONT></B> 
+<BR><B><FONT face="Courier New,Courier"><FONT size=-1>...</FONT></FONT></B> 
+<BR><B><FONT face="Courier New,Courier"><FONT size=-1>Set&nbsp;crypto = 
+Server.CreateObject("DES_Library.clsEncrypt")</FONT></FONT></B> <BR><B><FONT 
+face="Courier New,Courier"><FONT size=-1>...</FONT></FONT></B> <BR><B><FONT 
+face="Courier New,Courier"><FONT size=-1>%&gt;</FONT></FONT></B> </P>
+<P><FONT face=Arial>To perform DES encryption, do the followings: </FONT></P>
+<P><FONT face="Courier New" size=2><STRONG>crypto.inputString 
+=&nbsp;VariableInputString <BR>crypto.keyDES =&nbsp;VariableDESKey 
+<BR>crypto.mode =    mode_ENCRYPT&nbsp;<BR>VariableEncryptedOutput = 
+crypto.encryptDES</STRONG></FONT></P>
+<P><FONT face=Arial>To perform DES decryption, do the followings:</FONT></P>
+<P><FONT face="Courier New" size=2><STRONG>crypto.inputString = 
+VariableInputString<BR>crypto.keyDES = VariableDESKey<BR>crypto.mode = 
+mode_DECRYPT<BR>VariableDecryptedOutput =    crypto.encryptDES</STRONG></FONT></P>
+<P><FONT face=Arial>To perform 3DES encryption, do the followings:</FONT></P>
+<P><FONT face="Courier New" size=2><STRONG>crypto.inputString = 
+VariableInputString<BR>crypto.key3DES1 =    Variable3DESKey1<BR>crypto.key3DES2 = 
+Variable3DESKey2<BR>crypto.mode = mode_ENCRYPT<BR>VariableEncryptedOutput = 
+crypto.encrypt3DES</STRONG></FONT></P>
+<P><FONT face=Arial>To perform 3DES decryption, do the followings:</FONT></P>
+<P><FONT face="Courier New" size=2><STRONG>crypto.inputString = 
+VariableInputString<BR>crypto.key3DES1 =    Variable3DESKey1<BR>crypto.key3DES2 = 
+Variable3DESKey2<BR>crypto.mode = mode_DECRYPT<BR>VariableDecryptedOutput = 
+crypto.encrypt3DES</STRONG></FONT></P>
+<P><FONT face=Arial>Contact us if you have any problem or query.</FONT></P>
+<P><FONT face=Arial><STRONG>Applitech Solution Limited</STRONG><BR>701, Shikhar, 
+Navrangpura, Ahmedabad - 380009. India.<BR></FONT><SPAN 
+style="mso-bidi-font-family: Arial"><FONT face=Arial>Tel: +91 (79) 656 
+0248/8709/8797<BR></FONT></SPAN><FONT face=Arial><SPAN 
+style="mso-bidi-font-family: Arial">Fax: +91 (79) 656 9489<BR></SPAN><B 
+style="mso-bidi-font-weight: normal"><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial">E-mail:</SPAN></B></FONT><SPAN 
+style="COLOR: black; mso-bidi-font-family: Arial"><FONT face=Arial> </FONT><B 
+style="mso-bidi-font-weight: normal"><A 
+href="mailto:comnet@applitechsolution.com"><SPAN 
+style="FONT-WEIGHT: normal"><FONT 
+face=Arial>comnet@applitechsolution.com</FONT></SPAN></A><BR></B></SPAN><FONT 
+face=Arial><B style="mso-bidi-font-weight: normal"><SPAN 
+style="mso-bidi-font-family: Arial">URL: </SPAN></B><SPAN 
+style="mso-bidi-font-family: Arial"><A 
+href="http://www.applitechsolution.com/"><SPAN style="COLOR: black"><FONT 
+color=blue>www.applitechsolution.com</FONT></SPAN></A></SPAN></FONT></P>
+<P>&nbsp;</P>
+
+</BODY>
+</HTML>
